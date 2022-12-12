@@ -21,6 +21,6 @@ make test
 | [Day 02](day_02) | Rock Paper Scissors     | :star:                         | :shrug:          |
 | [Day 03](day_03) | Rucksack Reorganization | :star:                         | :raised_eyebrow: |
 | [Day 04](day_04) | Camp Cleanup            | :star:                         | :thinking:       |
-| [Day 05](day_05) | Supply Stacks           | :star::star:                   | :start_struck:   |
+| [Day 05](day_05) | Supply Stacks           | :star::star:                   | :star_struck:   |
 | [Day 06](day_06) | Tuning Trouble          | :star:                         | :shrug:          |
 | [Day 07](day_07) | No Space Left On Device | :star::star:                   | :blue_heart:     |
