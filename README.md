@@ -25,3 +25,4 @@ make test
 | [Day 06](day_06) | Tuning Trouble          | :star:                         | :shrug:          |
 | [Day 07](day_07) | No Space Left On Device | :star::star:                   | :blue_heart:     |
 | [Day 08](day_08) | Treetop Tree House      | :star::star:                   | :thinking:       |
+| [Day 09](day_09) | Rope Bridge             | :star::star::star::star:       | :rage:           |
