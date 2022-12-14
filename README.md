@@ -26,3 +26,4 @@ make test
 | [Day 07](day_07) | No Space Left On Device | :star::star:                   | :blue_heart:     |
 | [Day 08](day_08) | Treetop Tree House      | :star::star:                   | :thinking:       |
 | [Day 09](day_09) | Rope Bridge             | :star::star::star::star:       | :rage:           |
+| [Day 10](day_10) | Cathode-Ray Tube        | :star::star:                   | :raised_eyebrow: |
