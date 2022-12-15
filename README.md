@@ -27,3 +27,5 @@ make test
 | [Day 08](day_08) | Treetop Tree House      | :star::star:                   | :thinking:       |
 | [Day 09](day_09) | Rope Bridge             | :star::star::star::star:       | :rage:           |
 | [Day 10](day_10) | Cathode-Ray Tube        | :star::star:                   | :raised_eyebrow: |
+| [Day 11](day_11) | Monkey in the Middle    | :star::star::star:             | :thinking:       |
+| [Day 12](day_12) | Hill Climbing Algorithm | :star::star::star:             | :blue_heart:     |
