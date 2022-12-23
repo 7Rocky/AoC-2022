@@ -34,14 +34,15 @@ public class Main {
     map.get(0).put(500, '.');
 
     long oldUnits = countSand();
-    long units = oldUnits;
+    long units = -1;
 
     while (sand(true)) {
-      units = countSand();
-
       if (units == oldUnits) {
         break;
       }
+
+      oldUnits = units;
+      units = countSand();
     }
 
     System.out.println("Units of sand (2): " + units);
