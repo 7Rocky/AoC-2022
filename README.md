@@ -31,3 +31,4 @@ make test
 | [Day 12](day_12) | Hill Climbing Algorithm | :star::star::star:             | :blue_heart:     |
 | [Day 13](day_13) | Distress Signal         | :star::star::star::star:       | :blue_heart:     |
 | [Day 14](day_14) | Regolith Reservoir      | :star::star::star::star:       | :star_struck:    |
+| [Day 15](day_15) | Beacon Exclusion Zone   | :star::star::star:             | :star_struck:    |
