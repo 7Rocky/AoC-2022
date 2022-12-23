@@ -30,3 +30,4 @@ make test
 | [Day 11](day_11) | Monkey in the Middle    | :star::star::star:             | :thinking:       |
 | [Day 12](day_12) | Hill Climbing Algorithm | :star::star::star:             | :blue_heart:     |
 | [Day 13](day_13) | Distress Signal         | :star::star::star::star:       | :blue_heart:     |
+| [Day 14](day_14) | Regolith Reservoir      | :star::star::star::star:       | :star_struck:    |
