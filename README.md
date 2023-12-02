@@ -37,8 +37,8 @@ make test
 | [Day 18](day_18) | Boiling Boulders         | :star::star::star:             | :thinking:       |
 | Day 19           | Not Enough Minerals      |                                |                  |
 | [Day 20](day_20) | Grove Positioning System | :star::star::star:             | :star_struck:    |
-| Day 21           | Monkey Math              |                                |                  |
+| [Day 21](day_21) | Monkey Math              | :star::star::star:             | :blue_heart:     |
 | Day 22           | Monkey Map               |                                |                  |
-| Day 23           | Unstable Diffusion       |                                |                  |
+| [Day 23](day_23) | Unstable Diffusion       | :star::star::star::star:       | :star_struck:    |
 | Day 24           | Blizzard Basin           |                                |                  |
-| Day 25           | Full of Hot Air          |                                |                  |
+| [Day 25](day_25) | Full of Hot Air          | :star::star:                   | :blue_heart:     |
