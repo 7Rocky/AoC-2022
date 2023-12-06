@@ -32,13 +32,13 @@ make test
 | [Day 13](day_13) | Distress Signal          | :star::star::star::star:       | :blue_heart:     |
 | [Day 14](day_14) | Regolith Reservoir       | :star::star::star::star:       | :star_struck:    |
 | [Day 15](day_15) | Beacon Exclusion Zone    | :star::star::star:             | :star_struck:    |
-| Day 16           | Proboscidea Volcanium    |                                |                  |
-| Day 17           | Pyroclastic Flow         |                                |                  |
+| [Day 16](day_16) | Proboscidea Volcanium    | :star::star::star::star::star: | :rage:           |
+| [Day 17](day_17) | Pyroclastic Flow         | :star::star::star::star:       | :star_struck:    |
 | [Day 18](day_18) | Boiling Boulders         | :star::star::star:             | :thinking:       |
-| Day 19           | Not Enough Minerals      |                                |                  |
+| [Day 19](day_19) | Not Enough Minerals      | :star::star::star::star:       | :thinking:       |
 | [Day 20](day_20) | Grove Positioning System | :star::star::star:             | :star_struck:    |
 | [Day 21](day_21) | Monkey Math              | :star::star::star:             | :blue_heart:     |
-| Day 22           | Monkey Map               |                                |                  |
+| Day 22           | Monkey Map               | :star::star::star::star::star: | :rage:           |
 | [Day 23](day_23) | Unstable Diffusion       | :star::star::star::star:       | :star_struck:    |
 | Day 24           | Blizzard Basin           |                                |                  |
 | [Day 25](day_25) | Full of Hot Air          | :star::star:                   | :blue_heart:     |
