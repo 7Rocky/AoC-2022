@@ -20,8 +20,8 @@ public class MainTest {
   private static final String YELLOW_BOLD_BRIGHT = "\033[1;93m";
   private static final String WHITE_BOLD_BRIGHT = "\033[1;97m";
 
-  static String answer1 = "root (1): 93813115694560";
-  static String answer2 = "humn (2): 3910938071092";
+  static String answer1 = "Password (1): 55244";
+  static String answer2 = "Password (2): 123149";
 
   public static void main(String[] args) {
     if (args.length == 1 && args[0].equals("time")) {
