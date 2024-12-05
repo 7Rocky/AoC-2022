@@ -37,7 +37,6 @@ public class Main {
         }
       }
 
-      List<Character> emptyRow = new ArrayList<>();
       int maxSize = map.stream().mapToInt(l -> l.size()).max().orElse(0);
 
       map.add(0, new ArrayList<Character>());
@@ -281,9 +280,7 @@ public class Main {
                 } else {
                   break;
                 }
-              }
-
-              if (position[1] == 150 && position[0] > 50 && position[0] <= 100) {
+              } else if (position[1] == 150 && position[0] > 50 && position[0] <= 100) {
                 if (map.get(position[0] + 100).get(50) != '#') {
                   direction[0] = -1;
                   direction[1] = 0;
@@ -292,9 +289,7 @@ public class Main {
                 } else {
                   break;
                 }
-              }
-
-              if (position[1] == 50 && position[0] > 100 && position[0] <= 150) {
+              } else if (position[1] == 50 && position[0] > 100 && position[0] <= 150) {
                 if (map.get(position[0] - 50).get(100) != '#') {
                   direction[0] = -1;
                   direction[1] = 0;
@@ -304,9 +299,114 @@ public class Main {
                   break;
                 }
               }
+            } else if (direction[0] == 0 && direction[1] == -1) {
+              if (position[1] == 1 && position[0] > 50 && position[0] <= 100) {
+                if (map.get(position[0] + 100).get(1) != '#') {
+                  direction[0] = 1;
+                  direction[1] = 0;
+                  position[1] = position[0] + 100;
+                  position[0] = 1;
+                } else {
+                  break;
+                }
+              } else if (position[1] == 1 && position[0] > 100 && position[0] <= 150) {
+                if (map.get(200).get(position[0] - 100) != '#') {
+                  direction[0] = 0;
+                  direction[1] = -1;
+                  position[1] = 200;
+                  position[0] = position[0] - 100;
+                } else {
+                  break;
+                }
+              } else if (position[1] == 101 && position[0] > 0 && position[0] <= 50) {
+                if (map.get(position[0] + 50).get(51) != '#') {
+                  direction[0] = 1;
+                  direction[1] = 0;
+                  position[1] = position[0] + 50;
+                  position[0] = 51;
+                } else {
+                  break;
+                }
+              }
+            } else if (direction[0] == 1 && direction[1] == 0) {
+              if (position[0] == 150 && position[1] > 0 && position[1] <= 50) {
+                if (map.get((51 - position[1]) + 100).get(100) != '#') {
+                  direction[0] = -1;
+                  direction[1] = 0;
+                  position[1] = (51 - position[1]) + 100;
+                  position[0] = 100;
+                } else {
+                  break;
+                }
+              } else if (position[0] == 100 && position[1] > 50 && position[1] <= 100) {
+                if (map.get(50).get(position[1] + 50) != '#') {
+                  direction[0] = 0;
+                  direction[1] = -1;
+                  position[0] = position[1] + 50;
+                  position[1] = 50;
+                } else {
+                  break;
+                }
+              } else if (position[0] == 100 && position[1] > 100 && position[1] <= 150) {
+                if (map.get(151 - position[1]).get(150) != '#') {
+                  direction[0] = -1;
+                  direction[1] = 0;
+                  position[1] = 151 - position[1];
+                  position[0] = 150;
+                } else {
+                  break;
+                }
+              } else if (position[0] == 50 && position[1] > 150 && position[1] <= 200) {
+                if (map.get(150).get(position[1] - 100) != '#') {
+                  direction[0] = 0;
+                  direction[1] = -1;
+                  position[0] = position[1] - 100;
+                  position[1] = 150;
+                } else {
+                  break;
+                }
+              }
+            } else if (direction[0] == -1 && direction[1] == 0) {
+              if (position[0] == 51 && position[1] > 0 && position[1] <= 50) {
+                if (map.get((51 - position[1]) + 100).get(1) != '#') {
+                  direction[0] = 1;
+                  direction[1] = 0;
+                  position[1] = (51 - position[1]) + 100;
+                  position[0] = 1;
+                } else {
+                  break;
+                }
+              } else if (position[0] == 51 && position[1] > 50 && position[1] <= 100) {
+                if (map.get(101).get(position[1] - 50) != '#') {
+                  direction[0] = 0;
+                  direction[1] = 1;
+                  position[0] = position[1] - 50;
+                  position[1] = 101;
+                } else {
+                  break;
+                }
+              } else if (position[0] == 1 && position[1] > 100 && position[1] <= 150) {
+                if (map.get(151 - position[1]).get(51) != '#') {
+                  direction[0] = 1;
+                  direction[1] = 0;
+                  position[1] = 151 - position[1];
+                  position[0] = 51;
+                } else {
+                  break;
+                }
+              } else if (position[0] == 1 && position[1] > 150 && position[1] <= 200) {
+                if (map.get(1).get(position[1] - 100) != '#') {
+                  direction[0] = 0;
+                  direction[1] = 1;
+                  position[0] = position[1] - 100;
+                  position[1] = 1;
+                } else {
+                  break;
+                }
+              }
+            }
 
-              // TODO: Continue cases
-
+            if (direction[0] == 0 && direction[1] == 1) {
               int j;
 
               for (j = position[1] - 1; j >= 0; j--) {
