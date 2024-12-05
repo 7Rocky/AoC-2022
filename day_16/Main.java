@@ -1,4 +1,4 @@
-package day_17;
+package day_16;
 
 import java.io.BufferedReader;
 import java.io.FileReader;
@@ -100,5 +100,4 @@ public class Main {
 
     return ret;
   }
-
 }
