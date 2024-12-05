@@ -38,7 +38,7 @@ make test
 | [Day 19](day_19) | Not Enough Minerals      | :star::star::star::star:       | :thinking:       |
 | [Day 20](day_20) | Grove Positioning System | :star::star::star:             | :star_struck:    |
 | [Day 21](day_21) | Monkey Math              | :star::star::star:             | :blue_heart:     |
-| Day 22           | Monkey Map               | :star::star::star::star::star: | :rage:           |
+| [Day 22](day_22) | Monkey Map               | :star::star::star::star::star: | :rage:           |
 | [Day 23](day_23) | Unstable Diffusion       | :star::star::star::star:       | :star_struck:    |
-| Day 24           | Blizzard Basin           |                                |                  |
+| [Day 24](day_24) | Blizzard Basin           | :star::star::star::star:       | :star_struck:    |
 | [Day 25](day_25) | Full of Hot Air          | :star::star:                   | :blue_heart:     |
